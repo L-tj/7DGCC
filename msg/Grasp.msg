@@ -1,0 +1,3 @@
+Point position
+Quaternion orientation
+float32 open

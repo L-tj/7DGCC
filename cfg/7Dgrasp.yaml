@@ -1,0 +1,26 @@
+debug_vis: False
+num_samples: 40             # 关键点采样数
+
+# 法线估计
+normal_estimation:
+  radius: 0.01      # 混合领域搜索半径1cm
+  max_nn: 30        # 邻域内用于估算法线的最大点数
+
+# 初始坐标估计
+coordinate_estimation:
+  radius: 0.006     # 混合领域搜索半径
+  max_nn: 120       # 半径R邻域内最大点数
+
+rotation_x: [0, -90]
+rotation_y: [0, -90]
+rotation_z: [0, 15, -15] 
+
+
+min_contact_height: 0.005       # 允许最小的手指接触深度
+center_height: 0.01             # 中心点z方向偏移
+finger_expand_width: 0.0025     # 手指膨胀宽度
+min_pc_number: 15
+d_z: -0.01                      # z方向平移的最小间隔距离
+y_bis: 0.02                     # y方向关键点移动范围[-y_bis,y_bis]
+perceived_contact_height: 0.0025
+

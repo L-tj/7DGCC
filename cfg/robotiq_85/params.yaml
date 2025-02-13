@@ -1,0 +1,13 @@
+min_width: 0.0
+max_width: 0.085
+
+finger_width: 0.01
+finger_height: 0.05     # 0.04+0.01
+finger_depth: 0.03
+
+hand_width: 0.105
+hand_height: 0.05
+hand_depth: 0.03
+
+
+
